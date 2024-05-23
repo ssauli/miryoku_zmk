@@ -7,14 +7,14 @@
 #if !defined (MIRYOKU_LAYER_LIST)
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base",  sensor-bindings=<&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;) \
-MIRYOKU_X(EXTRA,  "Extra", sensor-bindings=<&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;) \
+MIRYOKU_X(BASE,   "Base",  sensor-bindings=<&inc_dec_kp PG_DN PG_UP>;) \
+MIRYOKU_X(EXTRA,  "Extra", ) \
 MIRYOKU_X(TAP,    "Tap",   ) \
 MIRYOKU_X(BUTTON, "Button",) \
-MIRYOKU_X(NAV,    "Nav",   sensor-bindings=<&inc_dec_kp UP DOWN &inc_dec_kp UP DOWN>;) \
-MIRYOKU_X(MOUSE,  "Mouse", ) \
-MIRYOKU_X(MEDIA,  "Media", sensor-bindings=<&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;) \
-MIRYOKU_X(NUM,    "Num",   ) \
+MIRYOKU_X(NAV,    "Nav",   sensor-bindings=<&inc_dec_kp DOWN UP>;) \
+MIRYOKU_X(MOUSE,  "Mouse", sensor-bindings=<&inc_dec_kp LEFT RIGHT>;) \
+MIRYOKU_X(MEDIA,  "Media", sensor-bindings=<&inc_dec_kp C_VOL_DN C_VOL_UP>;) \
+MIRYOKU_X(NUM,    "Num",   sensor-bindings=<&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;) \
 MIRYOKU_X(SYM,    "Sym",   ) \
 MIRYOKU_X(FUN,    "Fun",   )
 
