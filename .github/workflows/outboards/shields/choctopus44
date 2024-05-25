@@ -1,7 +1,7 @@
 # Copyright 2023 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_repository=https://github.com/SlightHeadache/zmk-config
+outboard_repository=https://github.com/ssauli/zmk-config-choctopus
 outboard_ref=master
 outboard_from=config/boards/shields/choctopus44
 outboard_to=boards/shields/choctopus44
