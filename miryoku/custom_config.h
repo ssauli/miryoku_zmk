@@ -1,7 +1,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_LAYERMAPPING \
+#define MIRYOKU_LAYER_GAME \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
@@ -18,7 +18,6 @@ XXX  	K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
 U_GAME  K20  K21  K22  K23  K24  XXX  K25  K26  K27  K28  K29  U_BASE \
      	     XXX  K32  K33  K34	      K35  K36  K37  XXX
 
-
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base",  sensor-bindings=<&inc_dec_kp PG_DN PG_UP>;) \
 MIRYOKU_X(EXTRA,  "Extra", ) \
@@ -31,6 +30,8 @@ MIRYOKU_X(NUM,    "Num",   sensor-bindings=<&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGH
 MIRYOKU_X(SYM,    "Sym",   ) \
 MIRYOKU_X(FUN,    "Fun",   ) \
 MIRYOKU_X(GAME,   "Game",  )
+
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define U_BASE   0
 #define U_EXTRA  1
