@@ -7,6 +7,7 @@
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
+#define XXX &none
 #define MIRYOKU_LAYOUTMAPPING_CHOCTOPUS44( \
 	K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
 	K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
