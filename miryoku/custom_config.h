@@ -15,9 +15,10 @@ U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp 
 	N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 XXX 	    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  	    K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
+XXX  	    K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SEMICOLON \
 &to U_GAME  K20  K21  K22  K23  K24  XXX  K25  K26  K27  K28  K29  &to U_BASE \
      	         XXX  K32  K33  K34	      K35  K36  K37  XXX
+
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base",  sensor-bindings=<&inc_dec_kp PG_DN PG_UP>;) \
