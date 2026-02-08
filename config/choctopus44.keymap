@@ -5,3 +5,21 @@
 #include "../miryoku/mapping/44/choctopus44.h"
 #include "../miryoku/miryoku.dtsi"
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_semicolon {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&kp SEMICOLON>;
+        };
+    };
+};
+
+&mmv {
+    x-input-code = <INPUT_REL_X>;
+    y-input-code = <INPUT_REL_Y>;
+    time-to-max-speed-ms = <300>;
+    acceleration-exponent = <1>;
+};
+
